@@ -1,9 +1,8 @@
 import Link from "next/link";
 import styles from "./index.module.css";
 import { mapTermsToExperienceBuckets, EXPERIENCE_LEVELS } from "../lib/climbing-terms";
-import { getDatabase, getPageTitle, hasNotionConfig } from "../lib/notion";
+import { getPosts } from "../lib/local-db";
 
-const databaseId = process.env.NOTION_DATABASE_ID;
 export const revalidate = 60;
 
 const formatDate = (rawDate) => {
@@ -19,25 +18,22 @@ const formatDate = (rawDate) => {
 };
 
 export default async function HomePage() {
-  const posts = await getDatabase(databaseId);
-  const terms = posts.map((post) => getPageTitle(post)).filter(Boolean);
+  const posts = await getPosts();
+  const terms = posts.map((post) => post.title).filter(Boolean);
   const termMap = mapTermsToExperienceBuckets(terms);
 
   return (
     <main className={styles.container}>
       <header className={styles.header}>
-        <h1>Climbing terms from your Notion database</h1>
+        <h1>Climbing terms from a local repo database</h1>
         <p>
-          This project was refreshed to modern Next.js and now maps your current
-          climbing term list to the experience level where each term is most
+          This project now runs fully from a lightweight in-repo JSON database
+          and maps your current climbing term list to the experience level where each term is most
           frequently encountered.
         </p>
-        {!hasNotionConfig && (
-          <p className={styles.muted}>
-            Add <code>NOTION_TOKEN</code> and <code>NOTION_DATABASE_ID</code> in
-            <code>.env.local</code> to load your live terms.
-          </p>
-        )}
+        <p className={styles.muted}>
+          Edit <code>data/climbing-posts.json</code> to add or update terms.
+        </p>
       </header>
 
       <section>
@@ -82,10 +78,10 @@ export default async function HomePage() {
           {posts.map((post) => (
             <li key={post.id} className={styles.post}>
               <h3 className={styles.postTitle}>
-                <Link href={`/${post.id}`}>{getPageTitle(post)}</Link>
+                <Link href={`/${post.id}`}>{post.title}</Link>
               </h3>
               <p className={styles.postDescription}>
-                Last edited: {formatDate(post.last_edited_time)}
+                Last edited: {formatDate(post.lastEdited)}
               </p>
               <Link href={`/${post.id}`}>Read details →</Link>
             </li>
