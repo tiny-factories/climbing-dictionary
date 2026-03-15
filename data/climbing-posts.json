@@ -1,0 +1,143 @@
+{
+  "posts": [
+    {
+      "id": "belay",
+      "title": "Belay",
+      "lastEdited": "2026-03-14T09:00:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "Belaying means managing the rope for a climber so falls are controlled safely." },
+        { "type": "heading", "level": 2, "text": "Where you will hear it" },
+        { "type": "list", "style": "bulleted", "items": ["Intro classes and gym orientations", "Partner checks before every route", "Lead and top-rope sessions"] }
+      ]
+    },
+    {
+      "id": "jug",
+      "title": "Jug",
+      "lastEdited": "2026-03-14T09:05:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "A jug is a large positive hold that is easy to grip and often appears on easier climbs." },
+        { "type": "list", "style": "bulleted", "items": ["Common on beginner routes", "Useful for resting", "Great for movement drills"] }
+      ]
+    },
+    {
+      "id": "slab",
+      "title": "Slab",
+      "lastEdited": "2026-03-14T09:10:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "Slab climbing uses balance and foot precision on less-than-vertical terrain." },
+        { "type": "quote", "text": "Trust your feet before pulling with your hands." },
+        { "type": "list", "style": "numbered", "items": ["Keep hips over feet", "Use quiet foot placements", "Stand up instead of pulling"] }
+      ]
+    },
+    {
+      "id": "match",
+      "title": "Match",
+      "lastEdited": "2026-03-14T09:15:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "Matching means putting both hands on the same hold to stabilize before the next move." },
+        { "type": "list", "style": "bulleted", "items": ["Helps with controlled movement", "Often taught to beginners", "Useful in tight sequences"] }
+      ]
+    },
+    {
+      "id": "crimp",
+      "title": "Crimp",
+      "lastEdited": "2026-03-14T09:20:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "A crimp is a small edge hold gripped with bent fingers and high finger tension." },
+        { "type": "heading", "level": 2, "text": "Training note" },
+        { "type": "paragraph", "text": "Progress slowly to avoid finger overload, especially on hard boulders." }
+      ]
+    },
+    {
+      "id": "heel-hook",
+      "title": "Heel Hook",
+      "lastEdited": "2026-03-14T09:25:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "A heel hook uses the heel on a hold to create pulling tension and body control." },
+        { "type": "list", "style": "bulleted", "items": ["Great for keeping tension", "Useful on steep terrain", "Common in intermediate sequences"] }
+      ]
+    },
+    {
+      "id": "gaston",
+      "title": "Gaston",
+      "lastEdited": "2026-03-14T09:30:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "A gaston is a side-pull position where the elbow points outward while pushing away." },
+        { "type": "list", "style": "bulleted", "items": ["Requires shoulder stability", "Common in vertical to overhung climbing", "Appears often in technical routes"] }
+      ]
+    },
+    {
+      "id": "dyno",
+      "title": "Dyno",
+      "lastEdited": "2026-03-14T09:35:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "A dyno is a dynamic move where one or both hands leave the wall to catch a distant hold." },
+        { "type": "list", "style": "numbered", "items": ["Load legs and hips", "Commit to the move", "Absorb the catch with tension"] }
+      ]
+    },
+    {
+      "id": "mantle",
+      "title": "Mantle",
+      "lastEdited": "2026-03-14T09:40:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "A mantle is a top-out style movement where you press down on holds to move above them." },
+        { "type": "list", "style": "bulleted", "items": ["Feels like getting out of a pool", "Needs triceps and core stability", "Often appears near boulder tops"] }
+      ]
+    },
+    {
+      "id": "redpoint",
+      "title": "Redpoint",
+      "lastEdited": "2026-03-14T09:45:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "A redpoint is completing a route cleanly after prior attempts and practice." },
+        { "type": "list", "style": "bulleted", "items": ["Often an intermediate/advanced goal", "Builds from repeated effort", "Includes route refinement"] }
+      ]
+    },
+    {
+      "id": "onsight",
+      "title": "Onsight",
+      "lastEdited": "2026-03-14T09:50:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "An onsight is sending a route on the first try with no prior beta or falls." },
+        { "type": "quote", "text": "Reading the route is as important as strength." }
+      ]
+    },
+    {
+      "id": "kneebar",
+      "title": "Kneebar",
+      "lastEdited": "2026-03-14T09:55:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "A kneebar wedges the knee and foot to create friction and reduce load on the arms." },
+        { "type": "list", "style": "bulleted", "items": ["Common in steep sport climbs", "Can create strong rests", "Needs careful body positioning"] }
+      ]
+    },
+    {
+      "id": "campus-board",
+      "title": "Campus Board",
+      "lastEdited": "2026-03-14T10:00:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "Campus board training develops upper-body power and contact strength without using feet." },
+        { "type": "heading", "level": 2, "text": "Safety" },
+        { "type": "paragraph", "text": "Only use structured progressions after finger strength foundations are established." }
+      ]
+    },
+    {
+      "id": "moonboard",
+      "title": "Moonboard",
+      "lastEdited": "2026-03-14T10:05:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "The MoonBoard is a standardized steep board used for benchmarking boulders globally." },
+        { "type": "list", "style": "bulleted", "items": ["Power-focused style", "Benchmark grading", "Popular with advanced climbers"] }
+      ]
+    },
+    {
+      "id": "undercling",
+      "title": "Undercling",
+      "lastEdited": "2026-03-14T10:10:00.000Z",
+      "content": [
+        { "type": "paragraph", "text": "An undercling is held from underneath, requiring upward pull and strong body positioning." },
+        { "type": "list", "style": "numbered", "items": ["Keep feet high", "Drive hips inward", "Move decisively to next hold"] }
+      ]
+    }
+  ]
+}
